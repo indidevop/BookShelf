@@ -16,7 +16,7 @@ const Bookshelf = () => {
       <div className='flex flex-wrap justify-center m-5'>
         {bookshelf.map(book => (
           <div key={book.key} className='flex flex-col justify-around border-2 border-gray-600 rounded-lg p-3 m-2
-      w-[90%] sm:w-[30%]'>
+      w-[90%] sm:w-[40%]'>
             <h3><span className='font-semibold'>Title:</span> {book.title}</h3>
             <p><span className='font-semibold'>Author:</span> {book.author_name}</p>
             <p><span className='font-semibold'>Edition Count:</span> {book.edition_count}</p>
