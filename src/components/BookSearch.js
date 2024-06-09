@@ -51,7 +51,7 @@ const BookSearch = () => {
       <p
         className={`fixed ${display} top-2 mx-auto ${
           status === "green" ? "bg-green-400" : "bg-red-400"
-        } text-white py-1 px-2 text-center text-sm rounded-md left-0 right-0 w-[20%]`}
+        } text-white py-1 px-2 text-center text-sm rounded-md left-0 right-0 w-[80%] sm:w-[20%]`}
       >
         {status === "green" ? "Book added successfully" : "Some error occured"}
       </p>

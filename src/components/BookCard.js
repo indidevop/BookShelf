@@ -17,7 +17,7 @@ const BookCard = ({ book, onAdd }) => {
         <span className="font-semibold">Edition Count:</span>{" "}
         {book.edition_count}
       </p>
-      <button onClick={() => onAdd(book)} className="w-[70%] lg:w-[50%] bg-blue-400 text-white font-semibold p-1 rounded-md hover:bg-blue-500 mt-3">Add to Bookshelf</button>
+      <button onClick={() => onAdd(book)} className="w-[70%] mx-auto sm:mx-0 lg:w-[50%] bg-blue-400 text-white font-semibold p-1 rounded-md hover:bg-blue-500 mt-3">Add to Bookshelf</button>
     </div>
   );
 };
